@@ -18,6 +18,10 @@ body, head, h1, h2, h3, h4, h5, h6, p, blockquote, ul, ol, li, dd, dt, dl, form,
 	font-size: 1em;
 }
 
+body, input, select, textarea {
+	font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
+}
+
 img {
 	border: none;
 }
@@ -49,8 +53,4 @@ legend {
 
 p {
 	line-height: 1.5em;
-}
-
-input, select, textarea {
-	font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
 }
