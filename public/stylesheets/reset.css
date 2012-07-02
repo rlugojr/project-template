@@ -1,30 +1,33 @@
-/*!
+body {
+  font-size: 100%;
+}
 
- Simple reset.css
+body, button, input, textarea, select {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
 
- @version 1.0
- @author  Oskar Krawczyk (thereis@nouincolor.com)
-
-*/
-
-body, head, h1, h2, h3, h4, h5, h6, p, blockquote, ul, ol, li, dd, dt, dl, form, fieldset, input, textarea {
+body, head, h1, h2, h3, h4, h5, h6, p, blockquote, ul, ol, li, dd, dt, dl, form, fieldset, input, textarea, button {
   padding: 0;
   margin: 0;
   list-style: none;
   border: none;
   font-weight: normal;
-  vertical-align: top;
   line-height: 100%;
   font-size: 1em;
 }
 
-img {
-  border: none;
-}
-
 table {
   border-spacing: 0;
-  border-collapse: collapse;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  border: none;
+  display: block;
 }
 
 table, td, tr, th, tbody, thead {
